@@ -1,120 +1,81 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Internshop.GitHub.io by laguilar9</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Internshop.GitHub.io</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/laguilar9/internshop.github.io" class="btn">View on GitHub</a>
-      <a href="https://github.com/laguilar9/internshop.github.io/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/laguilar9/internshop.github.io/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+<html>
+    <head>
+        <title>Internshop: View All</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" id="meta-viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
 
-    <section class="main-content">
-      <p>&lt;!DOCTYPE html&gt;
-
-    </p>
-        Internshop: View All
+        <!-- begin css  -->
+       
+        <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+        <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/css/bootstrap-responsive.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo_table.css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
         
-        
+         <link rel="stylesheet" type="text/css" href="final.css">
+        <!-- end css -->
 
-<pre><code>    &lt;!-- begin css  --&gt;
+        <!-- begin scripts -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+        <!-- end scripts -->
+    </head>
 
-    &lt;link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" /&gt;
-    &lt;link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/css/bootstrap.min.css" /&gt;
-    &lt;link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/css/bootstrap-responsive.min.css" /&gt;
-    &lt;link rel="stylesheet" type="text/css" href="css/demo_table.css" /&gt;
-    &lt;link rel="stylesheet" type="text/css" href="css/styles.css" /&gt;
-
-     &lt;link rel="stylesheet" type="text/css" href="final.css"&gt;
-    &lt;!-- end css --&gt;
-
-    &lt;!-- begin scripts --&gt;
-    &lt;script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"&gt;&lt;/script&gt;
-    &lt;script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"&gt;&lt;/script&gt;
-    &lt;!-- end scripts --&gt;
-&lt;/head&gt;
-
-&lt;body&gt;
-&lt;h1&gt; Internships &lt;/h1&gt;
-&lt;div class="container"&gt;
-</code></pre>
-
-<p></p><ul>
-    <li><a href="home.html">Home</a></li>
-    <li>
-      <a href="categories.html">Categories </a>
-      <ul>
-<br>
-        <li><a href="index.html">View All</a></li>
-<br>
+    <body>
+    <h1> Internships </h1>
+    <div class="container">
+  <ul class="nav nav-tabs">
+    <li ><a href="home.html">Home</a></li>
+    <li class="dropdown" >
+      <a class="dropdown-toggle" data-toggle="dropdown" href="categories.html">Categories <span class="caret"></span></a>
+      <ul class="dropdown-menu">   
+        <li class="active"><a href="index.html">View All</a></li>                
       </ul>
     </li>
     <li><a href="tips.html">Tips</a></li>
     <li><a href="employers.html">Employers</a></li>
     <li><a href="about.html">About</a></li>
   </ul> 
+ 
+        <noscript>
+            <div id="noscript_note">You must have JavaScript enabled to view this page.</div>
+        </noscript>
 
-<pre><code>    &lt;noscript&gt;
-        &lt;div id="noscript_note"&gt;You must have JavaScript enabled to view this page.&lt;/div&gt;
-    &lt;/noscript&gt;
+       <!-- <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <h1>All</h1> -->
+                    
+                    
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span12">
+                    <div id="demo"></div>
+                </div>
+            </div>
+        </div>
 
-   &lt;!-- &lt;div class="container-fluid"&gt;
-        &lt;div class="row-fluid"&gt;
-            &lt;div class="span12"&gt;
-                &lt;h1&gt;All&lt;/h1&gt; --&gt;
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/jquery.dataTables.min.js"></script>
+        <script src="scripts/tabletop.js"></script>
+        <script src="scripts/tabletop-feed.js"></script>
+        <script src="scripts/data-tables-bootstrap.js"></script>
+        <script src="scripts/bootstrap-dropdown.js"></script>
 
+        <!-- begin analytics -->
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-20502211-1']);
+            _gaq.push(['_trackPageview']);
 
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class="row-fluid"&gt;
-            &lt;div class="span12"&gt;
-                &lt;div id="demo"&gt;&lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
+            (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+        <!-- end analytics -->
 
-    &lt;script src="http://cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/jquery.dataTables.min.js"&gt;&lt;/script&gt;
-    &lt;script src="scripts/tabletop.js"&gt;&lt;/script&gt;
-    &lt;script src="scripts/tabletop-feed.js"&gt;&lt;/script&gt;
-    &lt;script src="scripts/data-tables-bootstrap.js"&gt;&lt;/script&gt;
-    &lt;script src="scripts/bootstrap-dropdown.js"&gt;&lt;/script&gt;
-
-    &lt;!-- begin analytics --&gt;
-    &lt;script type="text/javascript"&gt;
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-20502211-1']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    &lt;/script&gt;
-    &lt;!-- end analytics --&gt;
-
-&lt;/body&gt;
-</code></pre>
-
-<p></p>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/laguilar9/internshop.github.io">Internshop.GitHub.io</a> is maintained by <a href="https://github.com/laguilar9">laguilar9</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
+    </body>
 </html>
