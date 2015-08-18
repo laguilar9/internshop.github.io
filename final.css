@@ -1,0 +1,43 @@
+body {
+    background-color: #e3e3e3;
+    
+    
+}
+
+
+h1 {
+	text-align: center;
+    background-color: #16174F;
+    font-family: Papyrus, fantasy;
+    color: #FFFFFF;
+	font-size: 37px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+}
+
+
+
+
+h1 {
+	
+	line-height: 77.5px;
+}
+
+ul.nav>li>a:visited {
+    text-decoration: none;
+    color: #f6f1ed;
+    background-color: #963019;
+}
+ul.nav > li > a:hover {
+	background-color: #f6f1ed;
+	color: #963019;
+	border-style: none;
+}
+
+ul.nav>li>a:focus {
+    text-decoration: none;
+    background-color: #963019;
+}
+
+
